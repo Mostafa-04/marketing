@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center text-center relative overflow-hidden bg-blue-900 px-4"
+      className="min-h-screen flex flex-col justify-center items-center text-center relative overflow-hidden bg-blue-900 px-4 py-40"
     >
       {/* Background décoratif avec carrés */}
       <div className="absolute inset-0 z-0">
@@ -62,9 +62,9 @@ export default function Home() {
         {/* Partie image */}
         <div className="flex-1 flex justify-center animate-slideIn">
           <div className="relative">
-            <div className="w-80 h-80 md:w-96 md:h-96 bg-gradient-to-br from-blue-800 to-blue-700 rounded-full overflow-hidden shadow-2xl border-4 border-orange-400">
-              <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                <img src="img.jpg" alt="Profil" className="w-full h-full object-cover" />
+            <div className=" overflow-hidden">
+              <div className="w-full h-full flex items-center justify-center">
+                <img src="hero.png" alt="Profil" className="w-full h-full object-cover" />
               </div>
             </div>
 

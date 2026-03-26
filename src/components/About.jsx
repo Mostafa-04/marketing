@@ -15,11 +15,11 @@ export default function About() {
           <div className="lg:w-2/5 flex justify-center">
             <div className="relative group">
               
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-orange-400 transform group-hover:scale-105 transition duration-500">
+              <div className="w-80 h-80 md:w-96 md:h-96 bg-gradient-to-br from-blue-800 to-blue-700 rounded-full overflow-hidden shadow-2xl border-4 border-orange-400">
                 <img
-                  src="img2.jpg"
+                  src="img.jpg"
                   alt="Profil"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full"
                 />
               </div>
 
